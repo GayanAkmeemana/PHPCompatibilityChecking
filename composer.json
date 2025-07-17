@@ -1,0 +1,19 @@
+{
+  "name": "yourname/php-compat-check",
+  "description": "Project to check PHP 8 compatibility",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+    "phpcompatibility/php-compatibility": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0"
+    },
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
